@@ -1,0 +1,373 @@
+Warning: /usr/lib/sqoop/../accumulo does not exist! Accumulo imports will fail.
+Please set $ACCUMULO_HOME to the root of your Accumulo installation.
+18/06/07 10:34:05 INFO sqoop.Sqoop: Running Sqoop version: 1.4.6-cdh5.14.2
+18/06/07 10:34:05 WARN hsqldb.HsqldbMetaStore: The location for metastore data has not been explicitly set. Placing shared metastore files in /home/cloudera/.sqoop/shared-metastore.db
+[Server@7ab6db4]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@7ab6db4]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@7ab6db4]: [Thread[main,5,main]]: setDatabasePath(0,file:/home/cloudera/.sqoop/shared-metastore.db)
+[Server@7ab6db4]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@7ab6db4]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@7ab6db4]: [Thread[main,5,main]]: setDatabaseName(0,sqoop)
+[Server@7ab6db4]: [Thread[main,5,main]]: putPropertiesFromString(): [hsqldb.write_delay=false]
+[Server@7ab6db4]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@7ab6db4]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@7ab6db4]: Initiating startup sequence...
+[Server@7ab6db4]: Server socket opened successfully in 13 ms.
+[Server@7ab6db4]: Database [index=0, id=0, db=file:/home/cloudera/.sqoop/shared-metastore.db, alias=sqoop] opened sucessfully in 262 ms.
+[Server@7ab6db4]: Startup sequence completed in 279 ms.
+[Server@7ab6db4]: 2018-06-07 10:34:05.832 HSQLDB server 1.8.0 is online
+[Server@7ab6db4]: To close normally, connect and execute SHUTDOWN SQL
+[Server@7ab6db4]: From command line, use [Ctrl]+[C] to abort abruptly
+18/06/07 10:34:05 INFO hsqldb.HsqldbMetaStore: Server started on port 16000 with protocol HSQL
+Warning: /usr/lib/sqoop/../accumulo does not exist! Accumulo imports will fail.
+Please set $ACCUMULO_HOME to the root of your Accumulo installation.
+18/06/07 10:38:29 INFO sqoop.Sqoop: Running Sqoop version: 1.4.6-cdh5.14.2
+18/06/07 10:38:29 WARN hsqldb.HsqldbMetaStore: The location for metastore data has not been explicitly set. Placing shared metastore files in /home/cloudera/.sqoop/shared-metastore.db
+[Server@5d8409fb]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@5d8409fb]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@5d8409fb]: [Thread[main,5,main]]: setDatabasePath(0,file:/home/cloudera/.sqoop/shared-metastore.db)
+[Server@5d8409fb]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@5d8409fb]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@5d8409fb]: [Thread[main,5,main]]: setDatabaseName(0,sqoop)
+[Server@5d8409fb]: [Thread[main,5,main]]: putPropertiesFromString(): [hsqldb.write_delay=false]
+[Server@5d8409fb]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@5d8409fb]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@5d8409fb]: Initiating startup sequence...
+[Server@5d8409fb]: [Thread[HSQLDB Server @5d8409fb,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@5d8409fb]: Initiating shutdown sequence...
+[Server@5d8409fb]: Shutdown sequence completed in 18 ms.
+[Server@5d8409fb]: 2018-06-07 10:38:29.954 SHUTDOWN : System.exit() was not called
+18/06/07 10:38:30 INFO hsqldb.HsqldbMetaStore: Server started on port 16000 with protocol HSQL
+18/06/07 10:38:30 INFO hsqldb.HsqldbMetaStore: Got shutdown notification
+18/06/07 10:38:30 INFO tool.MetastoreTool: Server thread has quit.
+Warning: /usr/lib/sqoop/../accumulo does not exist! Accumulo imports will fail.
+Please set $ACCUMULO_HOME to the root of your Accumulo installation.
+18/06/07 10:43:09 INFO sqoop.Sqoop: Running Sqoop version: 1.4.6-cdh5.14.2
+18/06/07 10:43:09 WARN hsqldb.HsqldbMetaStore: The location for metastore data has not been explicitly set. Placing shared metastore files in /home/cloudera/.sqoop/shared-metastore.db
+[Server@7af485b]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@7af485b]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@7af485b]: [Thread[main,5,main]]: setDatabasePath(0,file:/home/cloudera/.sqoop/shared-metastore.db)
+[Server@7af485b]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@7af485b]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@7af485b]: [Thread[main,5,main]]: setDatabaseName(0,sqoop)
+[Server@7af485b]: [Thread[main,5,main]]: putPropertiesFromString(): [hsqldb.write_delay=false]
+[Server@7af485b]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@7af485b]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@7af485b]: Initiating startup sequence...
+[Server@7af485b]: [Thread[HSQLDB Server @7af485b,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@7af485b]: Initiating shutdown sequence...
+[Server@7af485b]: Shutdown sequence completed in 14 ms.
+[Server@7af485b]: 2018-06-07 10:43:09.706 SHUTDOWN : System.exit() was not called
+18/06/07 10:43:09 INFO hsqldb.HsqldbMetaStore: Server started on port 16000 with protocol HSQL
+18/06/07 10:43:09 INFO hsqldb.HsqldbMetaStore: Got shutdown notification
+18/06/07 10:43:09 INFO tool.MetastoreTool: Server thread has quit.
+Warning: /usr/lib/sqoop/../accumulo does not exist! Accumulo imports will fail.
+Please set $ACCUMULO_HOME to the root of your Accumulo installation.
+18/06/07 10:47:59 INFO sqoop.Sqoop: Running Sqoop version: 1.4.6-cdh5.14.2
+18/06/07 10:47:59 WARN hsqldb.HsqldbMetaStore: The location for metastore data has not been explicitly set. Placing shared metastore files in /home/cloudera/.sqoop/shared-metastore.db
+[Server@7af485b]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@7af485b]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@7af485b]: [Thread[main,5,main]]: setDatabasePath(0,file:/home/cloudera/.sqoop/shared-metastore.db)
+[Server@7af485b]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@7af485b]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@7af485b]: [Thread[main,5,main]]: setDatabaseName(0,sqoop)
+[Server@7af485b]: [Thread[main,5,main]]: putPropertiesFromString(): [hsqldb.write_delay=false]
+[Server@7af485b]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@7af485b]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@7af485b]: Initiating startup sequence...
+[Server@7af485b]: [Thread[HSQLDB Server @7af485b,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@7af485b]: Initiating shutdown sequence...
+[Server@7af485b]: Shutdown sequence completed in 15 ms.
+[Server@7af485b]: 2018-06-07 10:47:59.553 SHUTDOWN : System.exit() was not called
+18/06/07 10:47:59 INFO hsqldb.HsqldbMetaStore: Server started on port 16000 with protocol HSQL
+18/06/07 10:47:59 INFO hsqldb.HsqldbMetaStore: Got shutdown notification
+18/06/07 10:47:59 INFO tool.MetastoreTool: Server thread has quit.
+Warning: /usr/lib/sqoop/../accumulo does not exist! Accumulo imports will fail.
+Please set $ACCUMULO_HOME to the root of your Accumulo installation.
+18/06/07 10:54:37 INFO sqoop.Sqoop: Running Sqoop version: 1.4.6-cdh5.14.2
+18/06/07 10:54:37 WARN hsqldb.HsqldbMetaStore: The location for metastore data has not been explicitly set. Placing shared metastore files in /home/cloudera/.sqoop/shared-metastore.db
+[Server@5d8409fb]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@5d8409fb]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@5d8409fb]: [Thread[main,5,main]]: setDatabasePath(0,file:/home/cloudera/.sqoop/shared-metastore.db)
+[Server@5d8409fb]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@5d8409fb]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@5d8409fb]: [Thread[main,5,main]]: setDatabaseName(0,sqoop)
+[Server@5d8409fb]: [Thread[main,5,main]]: putPropertiesFromString(): [hsqldb.write_delay=false]
+[Server@5d8409fb]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@5d8409fb]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@5d8409fb]: Initiating startup sequence...
+[Server@5d8409fb]: [Thread[HSQLDB Server @5d8409fb,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@5d8409fb]: Initiating shutdown sequence...
+[Server@5d8409fb]: Shutdown sequence completed in 16 ms.
+[Server@5d8409fb]: 2018-06-07 10:54:37.799 SHUTDOWN : System.exit() was not called
+18/06/07 10:54:37 INFO hsqldb.HsqldbMetaStore: Server started on port 16000 with protocol HSQL
+18/06/07 10:54:37 INFO hsqldb.HsqldbMetaStore: Got shutdown notification
+18/06/07 10:54:37 INFO tool.MetastoreTool: Server thread has quit.
+Warning: /usr/lib/sqoop/../accumulo does not exist! Accumulo imports will fail.
+Please set $ACCUMULO_HOME to the root of your Accumulo installation.
+18/06/07 10:55:07 INFO sqoop.Sqoop: Running Sqoop version: 1.4.6-cdh5.14.2
+18/06/07 10:55:07 WARN hsqldb.HsqldbMetaStore: The location for metastore data has not been explicitly set. Placing shared metastore files in /home/cloudera/.sqoop/shared-metastore.db
+[Server@4b7524e]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@4b7524e]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@4b7524e]: [Thread[main,5,main]]: setDatabasePath(0,file:/home/cloudera/.sqoop/shared-metastore.db)
+[Server@4b7524e]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@4b7524e]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@4b7524e]: [Thread[main,5,main]]: setDatabaseName(0,sqoop)
+[Server@4b7524e]: [Thread[main,5,main]]: putPropertiesFromString(): [hsqldb.write_delay=false]
+[Server@4b7524e]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@4b7524e]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@4b7524e]: Initiating startup sequence...
+[Server@4b7524e]: [Thread[HSQLDB Server @4b7524e,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@4b7524e]: Initiating shutdown sequence...
+[Server@4b7524e]: Shutdown sequence completed in 13 ms.
+[Server@4b7524e]: 2018-06-07 10:55:07.249 SHUTDOWN : System.exit() was not called
+18/06/07 10:55:07 INFO hsqldb.HsqldbMetaStore: Server started on port 16000 with protocol HSQL
+18/06/07 10:55:07 INFO hsqldb.HsqldbMetaStore: Got shutdown notification
+18/06/07 10:55:07 INFO tool.MetastoreTool: Server thread has quit.
+Warning: /usr/lib/sqoop/../accumulo does not exist! Accumulo imports will fail.
+Please set $ACCUMULO_HOME to the root of your Accumulo installation.
+18/06/07 10:55:31 INFO sqoop.Sqoop: Running Sqoop version: 1.4.6-cdh5.14.2
+18/06/07 10:55:31 WARN hsqldb.HsqldbMetaStore: The location for metastore data has not been explicitly set. Placing shared metastore files in /home/cloudera/.sqoop/shared-metastore.db
+[Server@7af485b]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@7af485b]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@7af485b]: [Thread[main,5,main]]: setDatabasePath(0,file:/home/cloudera/.sqoop/shared-metastore.db)
+[Server@7af485b]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@7af485b]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@7af485b]: [Thread[main,5,main]]: setDatabaseName(0,sqoop)
+[Server@7af485b]: [Thread[main,5,main]]: putPropertiesFromString(): [hsqldb.write_delay=false]
+[Server@7af485b]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@7af485b]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@7af485b]: Initiating startup sequence...
+[Server@7af485b]: [Thread[HSQLDB Server @7af485b,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@7af485b]: Initiating shutdown sequence...
+[Server@7af485b]: Shutdown sequence completed in 16 ms.
+[Server@7af485b]: 2018-06-07 10:55:31.760 SHUTDOWN : System.exit() was not called
+18/06/07 10:55:31 INFO hsqldb.HsqldbMetaStore: Server started on port 16000 with protocol HSQL
+18/06/07 10:55:31 INFO hsqldb.HsqldbMetaStore: Got shutdown notification
+18/06/07 10:55:31 INFO tool.MetastoreTool: Server thread has quit.
+Warning: /usr/lib/sqoop/../accumulo does not exist! Accumulo imports will fail.
+Please set $ACCUMULO_HOME to the root of your Accumulo installation.
+18/06/07 10:55:48 INFO sqoop.Sqoop: Running Sqoop version: 1.4.6-cdh5.14.2
+18/06/07 10:55:48 WARN hsqldb.HsqldbMetaStore: The location for metastore data has not been explicitly set. Placing shared metastore files in /home/cloudera/.sqoop/shared-metastore.db
+[Server@7ab6db4]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@7ab6db4]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@7ab6db4]: [Thread[main,5,main]]: setDatabasePath(0,file:/home/cloudera/.sqoop/shared-metastore.db)
+[Server@7ab6db4]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@7ab6db4]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@7ab6db4]: [Thread[main,5,main]]: setDatabaseName(0,sqoop)
+[Server@7ab6db4]: [Thread[main,5,main]]: putPropertiesFromString(): [hsqldb.write_delay=false]
+[Server@7ab6db4]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@7ab6db4]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@7ab6db4]: Initiating startup sequence...
+[Server@7ab6db4]: [Thread[HSQLDB Server @7ab6db4,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@7ab6db4]: Initiating shutdown sequence...
+[Server@7ab6db4]: Shutdown sequence completed in 14 ms.
+[Server@7ab6db4]: 2018-06-07 10:55:48.534 SHUTDOWN : System.exit() was not called
+18/06/07 10:55:48 INFO hsqldb.HsqldbMetaStore: Server started on port 16000 with protocol HSQL
+18/06/07 10:55:48 INFO hsqldb.HsqldbMetaStore: Got shutdown notification
+18/06/07 10:55:48 INFO tool.MetastoreTool: Server thread has quit.
+Warning: /usr/lib/sqoop/../accumulo does not exist! Accumulo imports will fail.
+Please set $ACCUMULO_HOME to the root of your Accumulo installation.
+18/06/07 10:56:12 INFO sqoop.Sqoop: Running Sqoop version: 1.4.6-cdh5.14.2
+18/06/07 10:56:12 WARN hsqldb.HsqldbMetaStore: The location for metastore data has not been explicitly set. Placing shared metastore files in /home/cloudera/.sqoop/shared-metastore.db
+[Server@6c5ec645]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@6c5ec645]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@6c5ec645]: [Thread[main,5,main]]: setDatabasePath(0,file:/home/cloudera/.sqoop/shared-metastore.db)
+[Server@6c5ec645]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@6c5ec645]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@6c5ec645]: [Thread[main,5,main]]: setDatabaseName(0,sqoop)
+[Server@6c5ec645]: [Thread[main,5,main]]: putPropertiesFromString(): [hsqldb.write_delay=false]
+[Server@6c5ec645]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@6c5ec645]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@6c5ec645]: Initiating startup sequence...
+[Server@6c5ec645]: [Thread[HSQLDB Server @6c5ec645,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@6c5ec645]: Initiating shutdown sequence...
+[Server@6c5ec645]: Shutdown sequence completed in 16 ms.
+[Server@6c5ec645]: 2018-06-07 10:56:12.164 SHUTDOWN : System.exit() was not called
+18/06/07 10:56:12 INFO hsqldb.HsqldbMetaStore: Server started on port 16000 with protocol HSQL
+18/06/07 10:56:12 INFO hsqldb.HsqldbMetaStore: Got shutdown notification
+18/06/07 10:56:12 INFO tool.MetastoreTool: Server thread has quit.
+Warning: /usr/lib/sqoop/../accumulo does not exist! Accumulo imports will fail.
+Please set $ACCUMULO_HOME to the root of your Accumulo installation.
+18/06/07 11:05:40 INFO sqoop.Sqoop: Running Sqoop version: 1.4.6-cdh5.14.2
+18/06/07 11:05:40 WARN hsqldb.HsqldbMetaStore: The location for metastore data has not been explicitly set. Placing shared metastore files in /home/cloudera/.sqoop/shared-metastore.db
+[Server@7ab6db4]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@7ab6db4]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@7ab6db4]: [Thread[main,5,main]]: setDatabasePath(0,file:/home/cloudera/.sqoop/shared-metastore.db)
+[Server@7ab6db4]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@7ab6db4]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@7ab6db4]: [Thread[main,5,main]]: setDatabaseName(0,sqoop)
+[Server@7ab6db4]: [Thread[main,5,main]]: putPropertiesFromString(): [hsqldb.write_delay=false]
+[Server@7ab6db4]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@7ab6db4]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@7ab6db4]: Initiating startup sequence...
+[Server@7ab6db4]: [Thread[HSQLDB Server @7ab6db4,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@7ab6db4]: Initiating shutdown sequence...
+[Server@7ab6db4]: Shutdown sequence completed in 18 ms.
+[Server@7ab6db4]: 2018-06-07 11:05:40.396 SHUTDOWN : System.exit() was not called
+18/06/07 11:05:40 INFO hsqldb.HsqldbMetaStore: Server started on port 16000 with protocol HSQL
+18/06/07 11:05:40 INFO hsqldb.HsqldbMetaStore: Got shutdown notification
+18/06/07 11:05:40 INFO tool.MetastoreTool: Server thread has quit.
+Warning: /usr/lib/sqoop/../accumulo does not exist! Accumulo imports will fail.
+Please set $ACCUMULO_HOME to the root of your Accumulo installation.
+18/06/07 11:06:11 INFO sqoop.Sqoop: Running Sqoop version: 1.4.6-cdh5.14.2
+18/06/07 11:06:11 WARN hsqldb.HsqldbMetaStore: The location for metastore data has not been explicitly set. Placing shared metastore files in /home/cloudera/.sqoop/shared-metastore.db
+[Server@7ab6db4]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@7ab6db4]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@7ab6db4]: [Thread[main,5,main]]: setDatabasePath(0,file:/home/cloudera/.sqoop/shared-metastore.db)
+[Server@7ab6db4]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@7ab6db4]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@7ab6db4]: [Thread[main,5,main]]: setDatabaseName(0,sqoop)
+[Server@7ab6db4]: [Thread[main,5,main]]: putPropertiesFromString(): [hsqldb.write_delay=false]
+[Server@7ab6db4]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@7ab6db4]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@7ab6db4]: Initiating startup sequence...
+[Server@7ab6db4]: [Thread[HSQLDB Server @7ab6db4,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@7ab6db4]: Initiating shutdown sequence...
+[Server@7ab6db4]: Shutdown sequence completed in 13 ms.
+[Server@7ab6db4]: 2018-06-07 11:06:11.334 SHUTDOWN : System.exit() was not called
+18/06/07 11:06:11 INFO hsqldb.HsqldbMetaStore: Server started on port 16000 with protocol HSQL
+18/06/07 11:06:11 INFO hsqldb.HsqldbMetaStore: Got shutdown notification
+18/06/07 11:06:11 INFO tool.MetastoreTool: Server thread has quit.
+Warning: /usr/lib/sqoop/../accumulo does not exist! Accumulo imports will fail.
+Please set $ACCUMULO_HOME to the root of your Accumulo installation.
+18/06/07 11:12:19 INFO sqoop.Sqoop: Running Sqoop version: 1.4.6-cdh5.14.2
+18/06/07 11:12:19 WARN hsqldb.HsqldbMetaStore: The location for metastore data has not been explicitly set. Placing shared metastore files in /home/cloudera/.sqoop/shared-metastore.db
+[Server@7af485b]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@7af485b]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@7af485b]: [Thread[main,5,main]]: setDatabasePath(0,file:/home/cloudera/.sqoop/shared-metastore.db)
+[Server@7af485b]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@7af485b]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@7af485b]: [Thread[main,5,main]]: setDatabaseName(0,sqoop)
+[Server@7af485b]: [Thread[main,5,main]]: putPropertiesFromString(): [hsqldb.write_delay=false]
+[Server@7af485b]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@7af485b]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@7af485b]: Initiating startup sequence...
+[Server@7af485b]: [Thread[HSQLDB Server @7af485b,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@7af485b]: Initiating shutdown sequence...
+[Server@7af485b]: Shutdown sequence completed in 11 ms.
+[Server@7af485b]: 2018-06-07 11:12:19.704 SHUTDOWN : System.exit() was not called
+18/06/07 11:12:19 INFO hsqldb.HsqldbMetaStore: Server started on port 16000 with protocol HSQL
+18/06/07 11:12:19 INFO hsqldb.HsqldbMetaStore: Got shutdown notification
+18/06/07 11:12:19 INFO tool.MetastoreTool: Server thread has quit.
