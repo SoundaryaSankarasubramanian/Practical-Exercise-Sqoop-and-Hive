@@ -30,7 +30,7 @@ The goal of the exercise is to generate two tables to report the user statistics
 
 ### Shell scripts:
 
-**1. mysqltohive.sh**
+**1. sqltohive.sh**
 
 ```./mysqltohive.sh```
 
